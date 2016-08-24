@@ -1,0 +1,179 @@
+.mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+  .levidesous-header.mdl-layout__header.mdl-layout__header--waterfall
+    .mdl-layout__header-row
+      span.levidesous-title.mdl-layout-title
+        img.levidesous-image(src='images/levidesous.png')
+      // Add spacer, to align navigation to the right in desktop
+      .levidesous-header-spacer.mdl-layout-spacer
+      .levidesous-search-box.mdl-textfield.mdl-js-textfield.mdl-textfield--expandable.mdl-textfield--floating-label.mdl-textfield--align-right.mdl-textfield--full-width
+        label.mdl-button.mdl-js-button.mdl-button--icon(for='search-field')
+          i.material-icons search
+        .mdl-textfield__expandable-holder
+          input#search-field.mdl-textfield__input(type='text')
+      // Navigation
+      .levidesous-navigation-container
+        nav.levidesous-navigation.mdl-navigation
+          a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Our Story
+          a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Catering
+          a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Order Online
+          a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Mail-a-Cake
+          a.mdl-navigation__link.mdl-typography--text-uppercase(href='') We're hiring
+      span.levidesous-mobile-title.mdl-layout-title
+        img.levidesous-image-rect(src='images/levidesous.png')
+      button#more-button.levidesous-more-button.mdl-button.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect
+        i.material-icons more_vert
+      ul.mdl-menu.mdl-js-menu.mdl-menu--bottom-right.mdl-js-ripple-effect(for='more-button')
+        li.mdl-menu__item 5.0 Lollipop
+        li.mdl-menu__item 4.4 KitKat
+        li.mdl-menu__item(disabled='') 4.3 Jelly Bean
+        li.mdl-menu__item levidesous History
+  .levidesous-drawer.mdl-layout__drawer
+    span.mdl-layout-title
+      img.levidesous-image-rect(src='images/wooden_levidesous.jpg')
+    nav.mdl-navigation
+      a.mdl-navigation__link(href='') Our Story
+      .levidesous-drawer-separator
+      a.mdl-navigation__link(href='') Catering
+      .levidesous-drawer-separator
+      a.mdl-navigation__link(href='') Order Online
+      .levidesous-drawer-separator
+      a.mdl-navigation__link(href='') We're hiring
+      .levidesous-drawer-separator
+  .levidesous-content.mdl-layout__content
+    a(name='top')
+    .levidesous-be-together-section.mdl-typography--text-center
+      .logo-font.levidesous-slogan Le Vide Sous
+      .logo-font.levidesous-sub-slogan Live the sweet life.
+      .logo-font.levidesous-create-character
+        a(href='')
+          img(src='images/nope.jpg')
+          |  create your levidesous character
+      a(href='#screens')
+        button.levidesous-fab.mdl-button.mdl-button--colored.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect
+          i.material-icons expand_more
+    .levidesous-screen-section.mdl-typography--text-center
+      a(name='screens')
+      .mdl-typography--display-1-color-contrast Powering screens of all sizes
+      .levidesous-screens
+        .levidesous-wear.levidesous-screen
+          a.levidesous-image-link(href='')
+            img.levidesous-screen-image(src='images/wear-silver-on.png')
+            img.levidesous-screen-image(src='images/wear-black-on.png')
+          a.levidesous-link.mdl-typography--font-regular.mdl-typography--text-uppercase(href='') levidesous Wear
+        .levidesous-phone.levidesous-screen
+          a.levidesous-image-link(href='')
+            img.levidesous-screen-image(src='images/nexus6-on.jpg')
+          a.levidesous-link.mdl-typography--font-regular.mdl-typography--text-uppercase(href='') Phones
+        .levidesous-tablet.levidesous-screen
+          a.levidesous-image-link(href='')
+            img.levidesous-screen-image(src='images/nexus9-on.jpg')
+          a.levidesous-link.mdl-typography--font-regular.mdl-typography--text-uppercase(href='') Tablets
+        .levidesous-tv.levidesous-screen
+          a.levidesous-image-link(href='')
+            img.levidesous-screen-image(src='images/tv-on.jpg')
+          a.levidesous-link.mdl-typography--font-regular.mdl-typography--text-uppercase(href='') levidesous TV
+        .levidesous-auto.levidesous-screen
+          a.levidesous-image-link(href='')
+            img.levidesous-screen-image(src='images/auto-on.jpg')
+          a.levidesous-link.mdl-typography--font-regular.mdl-typography--text-uppercase.mdl-typography--text-left(href='') Coming Soon: levidesous Auto
+    .levidesous-wear-section
+      .levidesous-wear-band
+        .levidesous-wear-band-text
+          .mdl-typography--display-2.mdl-typography--font-thin The best of Google built in
+          p.mdl-typography--headline.mdl-typography--font-thin
+            | levidesous works perfectly with your favourite apps like Google Maps,
+            | Calendar and YouTube.
+          p
+            a.mdl-typography--font-regular.mdl-typography--text-uppercase.levidesous-alt-link(href='')
+              | See what's new in the Play Store 
+              i.material-icons chevron_right
+    .levidesous-customized-section
+      .levidesous-customized-section-text
+        .mdl-typography--font-light.mdl-typography--display-1-color-contrast Customised by you, for you
+        p.mdl-typography--font-light
+          | Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
+          br
+          a.levidesous-link.mdl-typography--font-light(href='') Customise your phone
+      .levidesous-customized-section-image
+    .levidesous-more-section
+      .levidesous-section-title.mdl-typography--display-1-color-contrast More from levidesous
+      .levidesous-card-container.mdl-grid
+        .mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card.mdl-shadow--3dp
+          .mdl-card__media
+            img(src='images/more-from-1.png')
+          .mdl-card__title
+            h4.mdl-card__title-text Get going on levidesous
+          .mdl-card__supporting-text
+            span.mdl-typography--font-light.mdl-typography--subhead Four tips to make your switch to levidesous quick and easy
+          .mdl-card__actions
+            a.levidesous-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase(href='')
+              | Make the switch
+              i.material-icons chevron_right
+        .mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card.mdl-shadow--3dp
+          .mdl-card__media
+            img(src='images/more-from-4.png')
+          .mdl-card__title
+            h4.mdl-card__title-text Create your own levidesous character
+          .mdl-card__supporting-text
+            span.mdl-typography--font-light.mdl-typography--subhead Turn the little green levidesous mascot into you, your friends, anyone!
+          .mdl-card__actions
+            a.levidesous-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase(href='')
+              | levidesousify.com
+              i.material-icons chevron_right
+        .mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card.mdl-shadow--3dp
+          .mdl-card__media
+            img(src='images/more-from-2.png')
+          .mdl-card__title
+            h4.mdl-card__title-text Get a clean customisable home screen
+          .mdl-card__supporting-text
+            span.mdl-typography--font-light.mdl-typography--subhead
+              | A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.
+          .mdl-card__actions
+            a.levidesous-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase(href='')
+              | Download now
+              i.material-icons chevron_right
+        .mdl-cell.mdl-cell--3-col.mdl-cell--4-col-tablet.mdl-cell--4-col-phone.mdl-card.mdl-shadow--3dp
+          .mdl-card__media
+            img(src='images/more-from-3.png')
+          .mdl-card__title
+            h4.mdl-card__title-text Millions to choose from
+          .mdl-card__supporting-text
+            span.mdl-typography--font-light.mdl-typography--subhead
+              | Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your levidesous device uniquely yours.
+          .mdl-card__actions
+            a.levidesous-link.mdl-button.mdl-js-button.mdl-typography--text-uppercase(href='')
+              | Find apps
+              i.material-icons chevron_right
+    footer.levidesous-footer.mdl-mega-footer
+      .mdl-mega-footer--top-section
+        .mdl-mega-footer--left-section
+          button.mdl-mega-footer--social-btn
+          button.mdl-mega-footer--social-btn
+          button.mdl-mega-footer--social-btn
+        .mdl-mega-footer--right-section
+          a.mdl-typography--font-light(href='#top')
+            | Back to Top
+            i.material-icons expand_less
+      .mdl-mega-footer--middle-section
+        p.mdl-typography--font-light Satellite imagery: © 2014 Astrium, DigitalGlobe
+        p.mdl-typography--font-light Some features and devices may not be available in all areas
+      .mdl-mega-footer--bottom-section
+        a#version-dropdown.levidesous-link.levidesous-link-menu.mdl-typography--font-light
+          | Versions
+          i.material-icons arrow_drop_up
+        ul.mdl-menu.mdl-js-menu.mdl-menu--top-left.mdl-js-ripple-effect(for='version-dropdown')
+          li.mdl-menu__item 5.0 Lollipop
+          li.mdl-menu__item 4.4 KitKat
+          li.mdl-menu__item 4.3 Jelly Bean
+          li.mdl-menu__item levidesous History
+        a#developers-dropdown.levidesous-link.levidesous-link-menu.mdl-typography--font-light
+          | For Developers
+          i.material-icons arrow_drop_up
+        ul.mdl-menu.mdl-js-menu.mdl-menu--top-left.mdl-js-ripple-effect(for='developers-dropdown')
+          li.mdl-menu__item App developer resources
+          li.mdl-menu__item levidesous Open Source Project
+          li.mdl-menu__item levidesous SDK
+          li.mdl-menu__item levidesous for Work
+        a.levidesous-link.mdl-typography--font-light(href='') Blog
+        a.levidesous-link.mdl-typography--font-light(href='') Privacy Policy
+script(src='https://code.getmdl.io/1.2.0/material.min.js')
