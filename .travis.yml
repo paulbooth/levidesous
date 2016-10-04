@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "4.1.1"
+before_script:
+  - npm install -g harp
+  - chmod +x deploy.sh
+script: true
+after_success:
+  - bash deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "0bb45113c5f0"
+  - COMMIT_AUTHOR_EMAIL: "thephantompaulbooth@gmail.com"
