@@ -20,6 +20,10 @@
 	color: black;
 }
 
+.nav-link:hover {
+	color: white;
+}
+
 html{
 	font: normal 16px sans-serif;
 	color: #555;
@@ -117,11 +121,11 @@ ul.grid{
 	z-index: 10;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	color: #fff;
 	padding: 15px 100px;
-	background-color: rgba(255,255,255,.5);
+	// background-color: rgba(255,255,255,.5);
 }
 
 .header nav{
@@ -197,13 +201,17 @@ ul.grid{
 // }
 
 .hero h1{
-	font: bold 60px 'Open Sans', sans-serif;
+	font: bold 60px cursive, sans-serif;
 	margin-bottom: 15px;
 }
 
 .hero h3{
-	font: normal 28px 'Open Sans', sans-serif;
+	font: normal 28px cursive, sans-serif;
 	margin-bottom: 40px;
+}
+
+.smaller-icon {
+	font-size: 80%
 }
 
 .hero a.btn{
@@ -371,7 +379,8 @@ ul.grid{
 ---------------------*/
 
 .contact{
-	background-color: #f7f7f7;
+	// background-color: #f7f7f7;
+	background-color: #fff;
 }
 
 form{
@@ -488,7 +497,7 @@ footer p a{
 
 .arrow-container {
   position: absolute;
-  bottom: 5px;
+  bottom: 15px;
   left: 50%;
   margin-left: -20px;
   width: 40px;
